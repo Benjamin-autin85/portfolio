@@ -1,1 +1,108 @@
-# portfolio
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Benjamin Autin - Graphiste</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 1rem;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    header h1 {
+      font-size: 2rem;
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    section {
+      padding: 4rem 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    h2 {
+      margin-bottom: 1rem;
+      color: #222;
+    }
+    .projets {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+    .projet {
+      background-color: white;
+      border-radius: 10px;
+      padding: 1rem;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    footer {
+      background-color: #fff;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Benjamin Autin – Graphiste en formation</h1>
+    <nav>
+      <a href="#accueil">Accueil</a>
+      <a href="#apropos">À propos</a>
+      <a href="#projets">Projets</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="accueil">
+    <h2>Bienvenue</h2>
+    <p>Je suis Benjamin Autin, un graphiste en formation passionné par la création visuelle et le design moderne.</p>
+  </section>
+
+  <section id="apropos">
+    <h2>À propos</h2>
+    <p>En pleine formation dans le domaine du graphisme, je développe mes compétences en design numérique, typographie, mise en page et outils créatifs comme Photoshop, Illustrator et Figma.</p>
+  </section>
+
+  <section id="projets">
+    <h2>Mes projets</h2>
+    <div class="projets">
+      <div class="projet">
+        <h3>Projet 1</h3>
+        <p>Création d’une affiche événementielle dans un style pop coloré.</p>
+      </div>
+      <div class="projet">
+        <h3>Projet 2</h3>
+        <p>Refonte de l'identité visuelle d'une marque fictive.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Tu peux me contacter à l’adresse suivante : <strong>benjamin.autin@example.com</strong></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Benjamin Autin – Portfolio</p>
+  </footer>
+</body>
+</html>
